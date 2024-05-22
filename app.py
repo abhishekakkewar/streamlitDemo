@@ -5,9 +5,7 @@ from prediction import predict
 
 
 st.title('Classifying Iris Flowers')
-st.markdown('Toy model to play to classify iris flowers into \
-     (setosa, versicolor, virginica) based on their sepal/petal \
-    and length/width.')
+st.markdown('Toy model to play to classify iris flowers into setosa, versicolor, virginica) based on their sepal/petal and length/width.')
 
 st.header("Plant Features")
 col1, col2 = st.columns(2)
